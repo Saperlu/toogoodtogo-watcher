@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#map,
+#react-target {
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.map-item {
+  --map-item-size: 1.6rem;
+  
+  top: calc(-1 * var(--map-item-size) / 2) !important;
+  left: calc(-1 * var(--map-item-size) / 2) !important;
+  width: var(--map-item-size) !important;
+  height: var(--map-item-size) !important;
+  
+  transition: all 300ms ease-in-out;
+}
+
+.map-item.selected {
+  --map-selected-item-size: calc(var(--map-item-size) * 1.5);
+  top: calc(-1 * var(--map-selected-item-size) / 2) !important;
+  left: calc(-1 * var(--map-selected-item-size) / 2) !important;
+  width: var(--map-selected-item-size) !important;
+  height: var(--map-selected-item-size) !important;
+  /* transform: scale(2); */
+  z-index: 400 !important;
+}
+
+.map-item > img {
+  height: 100%;
+  width: 100% !important;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: inherit;
+  /* transition: all 1s; */
+  object-fit: cover;
+  background-color: white;
+}

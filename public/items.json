@@ -1,0 +1,3235 @@
+{
+    "items": [
+        {
+            "item": {
+                "item_id": "1159014",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 21,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "1049650",
+                    "current_url": "https://images.tgtg.ninja/item/cover/a8af1dbd-5b10-49db-bad4-cb63173acc01.png",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "1051451",
+                    "current_url": "https://images.tgtg.ninja/store/b59384e1-4f14-4c15-955e-645c2ab5b0b3_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier surprise",
+                "description": "Sauvez un panier surprise et savourez un délicieux cordon bleu.",
+                "food_handling_instructions": "Nous vous conseillons de réchauffer le cordon bleu 5min à 180°. Bon appétit  :)",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "MEAL",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 93,
+                        "user_count": 14,
+                        "month_count": 5
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 14,
+                        "month_count": 5
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.5,
+                    "rating_count": 14,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "1040379",
+                "store_name": "Amonē - Montmartre ",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR86913693206",
+                "website": "https://www.instagram.com/amone_cordonbleu/",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "13 Rue Chappe, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3416429,
+                        "latitude": 48.8846801
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "1051451",
+                    "current_url": "https://images.tgtg.ninja/store/b59384e1-4f14-4c15-955e-645c2ab5b0b3_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.05461769008348894,
+                "cover_picture": {
+                    "picture_id": "1049650",
+                    "current_url": "https://images.tgtg.ninja/item/cover/a8af1dbd-5b10-49db-bad4-cb63173acc01.png",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Amonē - Montmartre  (Panier surprise)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "13 Rue Chappe, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3416429,
+                    "latitude": 48.8846801
+                }
+            },
+            "items_available": 0,
+            "distance": 0.05461769008348894,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "11840719825600512",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 21,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "1204710",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/1cf5e84b-da70-4976-84e7-ecb45bbf803e.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "25483959431519872",
+                    "current_url": "https://images.tgtg.ninja/store/2b66ba74-746c-4958-9721-cfc9505729c3_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier mixte",
+                "description": "Dans votre panier surprise, vous pourrez trouver des produits frais (crèmerie, snacking, viande, etc.), des fruits et légumes et parfois des produits d’épicerie.",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 100,
+                        "user_count": 5,
+                        "month_count": 4
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 5,
+                        "month_count": 4
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "11840719691382784",
+                "store_name": "Carrefour Express - Paris, Orsel ",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR17423917582",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "48 Rue d'Orsel, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3421306,
+                        "latitude": 48.8836108
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "25483959431519872",
+                    "current_url": "https://images.tgtg.ninja/store/2b66ba74-746c-4958-9721-cfc9505729c3_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.0981035928652817,
+                "cover_picture": {
+                    "picture_id": "1204710",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/1cf5e84b-da70-4976-84e7-ecb45bbf803e.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Carrefour Express - Paris, Orsel  (Panier mixte)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "48 Rue d'Orsel, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3421306,
+                    "latitude": 48.8836108
+                }
+            },
+            "items_available": 0,
+            "distance": 0.0981035928652817,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "35894262462671328",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 18,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 349,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 349,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1000,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1000,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 349,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1000,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "35908737621455488",
+                    "current_url": "https://images.tgtg.ninja/item/cover/c150bccd-8e36-4f6c-88c1-34b18a615c2c.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "35907826988895680",
+                    "current_url": "https://images.tgtg.ninja/store/f230fff5-470f-47eb-9ae9-57b7d49c54f5_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "panier surprise",
+                "description": "Dans votre panier, vous trouverez essentiellement une barquette de spécialités indiennes et népalaises, souvent un plat à base de riz ou des salés traditionnels. Tout dépendra des invendus du jour. ",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "MEAL",
+                "buffet": true,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 8,
+                        "month_count": 1
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 8,
+                        "month_count": 1
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "35893408689885216",
+                "store_name": "Yak & Yeti",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR80483068979",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "47 Rue d'Orsel, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3412756,
+                        "latitude": 48.8833769
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "35907826988895680",
+                    "current_url": "https://images.tgtg.ninja/store/f230fff5-470f-47eb-9ae9-57b7d49c54f5_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.09915515041212103,
+                "cover_picture": {
+                    "picture_id": "35908737621455488",
+                    "current_url": "https://images.tgtg.ninja/item/cover/c150bccd-8e36-4f6c-88c1-34b18a615c2c.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Yak & Yeti (panier surprise)",
+            "pickup_interval": {
+                "start": "2024-08-17T20:30:00Z",
+                "end": "2024-08-17T21:00:00Z"
+            },
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "47 Rue d'Orsel, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3412756,
+                    "latitude": 48.8833769
+                }
+            },
+            "purchase_end": "2024-08-17T21:00:00Z",
+            "items_available": 0,
+            "sold_out_at": "2024-08-17T09:49:13Z",
+            "distance": 0.09915515041212103,
+            "favorite": false,
+            "in_sales_window": true,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "SOLD_OUT",
+                    "short_text": "Épuisé"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "530506",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 21,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "265218",
+                    "current_url": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/y5UsrBqNGBQ.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "525510",
+                    "current_url": "https://images.tgtg.ninja/store/9265ce38-8aa6-4902-8201-94ba74d65116.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier Surprise",
+                "description": "Sauvez un panier surprise composé de délicieuses pâtisseries, viennoiseries et produits salés selon les invendus du jour",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_PACKAGING",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "BAKED_GOODS",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 86,
+                        "user_count": 204,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 90,
+                        "user_count": 204,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.095238095238095,
+                    "rating_count": 189,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "548024",
+                "store_name": "Félicité - Paris",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR81898501226",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "1 Rue Tardieu, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3426407,
+                        "latitude": 48.8842255
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "525510",
+                    "current_url": "https://images.tgtg.ninja/store/9265ce38-8aa6-4902-8201-94ba74d65116.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.10283050340920039,
+                "cover_picture": {
+                    "picture_id": "265218",
+                    "current_url": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/y5UsrBqNGBQ.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Félicité - Paris (Panier Surprise)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "1 Rue Tardieu, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3426407,
+                    "latitude": 48.8842255
+                }
+            },
+            "items_available": 0,
+            "distance": 0.10283050340920039,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "1178657",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 73,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 4000,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 4000,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 1399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 4000,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "1069987",
+                    "current_url": "https://images.tgtg.ninja/item/cover/cb2bdea8-c9fa-4f97-80e6-0966aab48e33.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "1054920",
+                    "current_url": "https://images.tgtg.ninja/store/9a9251a0-8dc2-4732-b7fb-5df19c96c33e.jpg",
+                    "is_automatically_created": false
+                },
+                "name": "Panier surprise 40 euros",
+                "description": "Sauvez un Panier Surprise composé de chocolats.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "OTHER",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 89,
+                        "user_count": 261,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 93,
+                        "user_count": 261,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.576763485477178,
+                    "rating_count": 241,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "1033861",
+                "store_name": "Dengo",
+                "branch": "",
+                "description": "Dengo, c'est un chocolat alliant impact social, environnemental et plaisir.\nPlaisir, car Dengo vous propose de délicieux chocolats, fabriqués à partir des meilleurs cacaos brésiliens. Des recettes plus savoureuses et moins sucrées.\nImpact, car proposer cet excellent chocolat, c'est avant tout valoriser des fermiers vivant de la culture du cacao et contribuer à préserver la Forêt.\n",
+                "tax_identifier": "FR07904496254",
+                "website": "https://fr.dengo.com/",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "19 Rue Yvonne le Tac, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3394214,
+                        "latitude": 48.8841701
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "1054920",
+                    "current_url": "https://images.tgtg.ninja/store/9a9251a0-8dc2-4732-b7fb-5df19c96c33e.jpg",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.13312246909530057,
+                "cover_picture": {
+                    "picture_id": "1069987",
+                    "current_url": "https://images.tgtg.ninja/item/cover/cb2bdea8-c9fa-4f97-80e6-0966aab48e33.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Dengo (Panier surprise 40 euros)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "19 Rue Yvonne le Tac, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3394214,
+                    "latitude": 48.8841701
+                }
+            },
+            "items_available": 0,
+            "distance": 0.13312246909530057,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "1104379",
+                "sales_taxes": [
+                    {
+                        "tax_description": "TVA",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 13,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 249,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 249,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 249,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "1001308",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/132582/18facb0e-3bec-40f5-8f8a-ad439afa3bbb.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "1001307",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/logo/132582/4f2cc959-64bb-4230-95a8-7aa66386cd6e_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Petit-déjeuner",
+                "description": "Venez sauver un panier composé de 7 à 10 unités du petit-déjeuner de l’hôtel, comme des viennoiseries, du pain, des fruits...",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "diet_categories": [],
+                "item_category": "BAKED_GOODS",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 15,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 15,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.6923076923076925,
+                    "rating_count": 13,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "995435",
+                "store_name": "Adagio - Paris Montmartre",
+                "description": "",
+                "tax_identifier": "FR20513635987",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "10 Pl. Charles Dullin, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3428851,
+                        "latitude": 48.8834427
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "1001273",
+                    "current_url": "https://images.tgtg.ninja/storebulkimport/logo/132571/6343df90-f9e0-4a96-a446-0c24adf1df55_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.15155509840394127,
+                "cover_picture": {
+                    "picture_id": "1001308",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/132582/18facb0e-3bec-40f5-8f8a-ad439afa3bbb.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Adagio - Paris Montmartre (Petit-déjeuner)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "10 Pl. Charles Dullin, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3428851,
+                    "latitude": 48.8834427
+                }
+            },
+            "items_available": 0,
+            "distance": 0.15155509840394127,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "253011",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 0.0000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "1186347",
+                    "current_url": "https://images.tgtg.ninja/item/cover/7b9d41d1-65fa-4353-93b3-1a257925e75b.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "225979",
+                    "current_url": "https://images.tgtg.ninja/store/6230e697-4f34-41f7-836f-a94a36811134.jpg",
+                    "is_automatically_created": false
+                },
+                "name": "Paniers Surprises",
+                "description": "",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_PACKAGING",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "BAKED_GOODS",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 95,
+                        "user_count": 157,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 92,
+                        "user_count": 157,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.6689655172413795,
+                    "rating_count": 145,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "241170",
+                "store_name": "Chez Isaac",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR86885366005",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "6 Rue des Abbesses, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3391339,
+                        "latitude": 48.8840631
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "225979",
+                    "current_url": "https://images.tgtg.ninja/store/6230e697-4f34-41f7-836f-a94a36811134.jpg",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.15538005753348047,
+                "cover_picture": {
+                    "picture_id": "1186347",
+                    "current_url": "https://images.tgtg.ninja/item/cover/7b9d41d1-65fa-4353-93b3-1a257925e75b.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Chez Isaac (Paniers Surprises)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "6 Rue des Abbesses, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3391339,
+                    "latitude": 48.8840631
+                }
+            },
+            "items_available": 0,
+            "distance": 0.15538005753348047,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "46890521766857504",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 16,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 299,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 299,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 299,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "264549",
+                    "current_url": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/qZ5lPCPvdXE.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "46895553455395936",
+                    "current_url": "https://images.tgtg.ninja/store/c1664f1d-2ad7-4a28-8980-399e52a8bd05_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier petit-déjeuner",
+                "description": "Venez sauver un panier composé de 7 à 10 unités du petit-déjeuner de l’hôtel, comme des viennoiseries, du pain, des fruits.\n\nPensez à prendre votre sac pour venir récupérer votre commande.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "BAKED_GOODS",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 75,
+                        "user_count": 4,
+                        "month_count": 0
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 75,
+                        "user_count": 4,
+                        "month_count": 0
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "46890521397781792",
+                "store_name": "Mercure - Paris Butte Montmartre Basilique",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR18530483205",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "100 Blvd Marguerite de Rochechouart, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3415685,
+                        "latitude": 48.8826763
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "46895553455395936",
+                    "current_url": "https://images.tgtg.ninja/store/c1664f1d-2ad7-4a28-8980-399e52a8bd05_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.17867895489578114,
+                "cover_picture": {
+                    "picture_id": "264549",
+                    "current_url": "https://images.tgtg.ninja/standard_images/PASTRIES_AND_CAKES/qZ5lPCPvdXE.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Mercure - Paris Butte Montmartre Basilique (Panier petit-déjeuner)",
+            "pickup_interval": {
+                "start": "2024-08-18T10:00:00Z",
+                "end": "2024-08-18T15:30:00Z"
+            },
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "100 Blvd Marguerite de Rochechouart, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3415685,
+                    "latitude": 48.8826763
+                }
+            },
+            "purchase_end": "2024-08-18T15:30:00Z",
+            "items_available": 2,
+            "distance": 0.17867895489578114,
+            "favorite": false,
+            "in_sales_window": true,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "X_ITEMS_LEFT",
+                    "short_text": "2 à sauver",
+                    "long_text": "2 à sauver"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "33869",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 21,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "857845",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/90910/3a0de5b5-58c8-4088-a69c-b664194ec318.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "3500",
+                    "current_url": "https://images.tgtg.ninja/store/1546420788_Q3tbCsXBPqJRyWzAurwbQCKqA7Mih8ba_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "",
+                "description": "🍩 Dans ce panier surprise vous trouverez des muffins, des cookies, des sandwiches et plein d’autres plaisirs gourmands signés Starbucks ! \n👉 Les paniers varient d’un jour à l’autre en fonction des invendus, les produits ne peuvent donc pas être choisis. Il est possible que votre panier soit composé de produits identiques.\n🌱 N’oubliez pas d’apporter votre sac afin de limiter l’utilisation d’emballages jetables.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "BAKED_GOODS",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 84,
+                        "user_count": 90,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 82,
+                        "user_count": 90,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 3.8850574712643677,
+                    "rating_count": 87,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "33706",
+                "store_name": "Starbucks - Place du Tertre",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR09445330103",
+                "website": "https://www.starbucks.fr/",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "10 Rue Norvins, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3406499,
+                        "latitude": 48.886888
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "3500",
+                    "current_url": "https://images.tgtg.ninja/store/1546420788_Q3tbCsXBPqJRyWzAurwbQCKqA7Mih8ba_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.2944384625658426,
+                "cover_picture": {
+                    "picture_id": "857845",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/90910/3a0de5b5-58c8-4088-a69c-b664194ec318.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Starbucks - Place du Tertre",
+            "pickup_interval": {
+                "start": "2024-08-17T17:30:00Z",
+                "end": "2024-08-17T19:00:00Z"
+            },
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "10 Rue Norvins, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3406499,
+                    "latitude": 48.886888
+                }
+            },
+            "purchase_end": "2024-08-17T19:00:00Z",
+            "items_available": 0,
+            "sold_out_at": "2024-08-17T17:17:38Z",
+            "distance": 0.2944384625658426,
+            "favorite": false,
+            "in_sales_window": true,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "SOLD_OUT",
+                    "short_text": "Épuisé"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "530351",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 52,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 999,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 999,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 999,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "525281",
+                    "current_url": "https://images.tgtg.ninja/item/cover/da6c76cb-e08a-4403-b3c6-f5b3fa174c87.png",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "61284",
+                    "current_url": "https://images.tgtg.ninja/store/1548948850_bTv3AfTPb6lDfGcNrcSnv0P9RtdwF9tl.jpg",
+                    "is_automatically_created": false
+                },
+                "name": "Panier produits italiens (pestos, antipasti...)",
+                "description": "Panier 100% sauces italiennes (huile d'olive, sauce tomate, pesto, antipasti..). Les produits peuvent avoir une DDM dépassée, mais restent consommables.\nUne référence comporte des étiquettes en Russe.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "Attention, il s'agit des bureaux Italians Do It Better. Sonnez à la porte blindée grise",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 97,
+                        "user_count": 209,
+                        "month_count": 3
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 96,
+                        "user_count": 209,
+                        "month_count": 3
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.770334928229665,
+                    "rating_count": 209,
+                    "month_count": 4
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "34264",
+                "store_name": "Italians Do It Better",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR08797643350",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "3 Rue Houdon, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3379106,
+                        "latitude": 48.8827666
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "61284",
+                    "current_url": "https://images.tgtg.ninja/store/1548948850_bTv3AfTPb6lDfGcNrcSnv0P9RtdwF9tl.jpg",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.2949598955336378,
+                "cover_picture": {
+                    "picture_id": "525281",
+                    "current_url": "https://images.tgtg.ninja/item/cover/da6c76cb-e08a-4403-b3c6-f5b3fa174c87.png",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Italians Do It Better (Panier produits italiens (pestos, antipasti...))",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "3 Rue Houdon, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3379106,
+                    "latitude": 48.8827666
+                }
+            },
+            "items_available": 0,
+            "distance": 0.2949598955336378,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "530468",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 57,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1099,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1099,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 1099,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "526922",
+                    "current_url": "https://images.tgtg.ninja/item/cover/041109fe-51c8-49af-962d-8654213b5311.png",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "61284",
+                    "current_url": "https://images.tgtg.ninja/store/1548948850_bTv3AfTPb6lDfGcNrcSnv0P9RtdwF9tl.jpg",
+                    "is_automatically_created": false
+                },
+                "name": " Panier mixte italien - 7 unités",
+                "description": "7 unités Italian's do it Better parmi 🍅\nSauce tomate, Pesto, crème aperitivo, tarallini\n⚠️Des produits sont étiquetés en Russe, ingrédients & allergènes disponibles sur site. Sonnez à la porte grise.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "Sonnez à la porte blindée grise (il s'agit de bureaux)",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 2,
+                        "month_count": 5
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 2,
+                        "month_count": 5
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "34264",
+                "store_name": "Italians Do It Better",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR08797643350",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "3 Rue Houdon, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3379106,
+                        "latitude": 48.8827666
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "61284",
+                    "current_url": "https://images.tgtg.ninja/store/1548948850_bTv3AfTPb6lDfGcNrcSnv0P9RtdwF9tl.jpg",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.2949598955336378,
+                "cover_picture": {
+                    "picture_id": "526922",
+                    "current_url": "https://images.tgtg.ninja/item/cover/041109fe-51c8-49af-962d-8654213b5311.png",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Italians Do It Better ( Panier mixte italien - 7 unités)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "3 Rue Houdon, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3379106,
+                    "latitude": 48.8827666
+                }
+            },
+            "items_available": 0,
+            "distance": 0.2949598955336378,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "573811",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 41,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 790,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 790,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 2400,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 2400,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 790,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 2400,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "580342",
+                    "current_url": "https://images.tgtg.ninja/item/cover/474f9161-6971-48cb-b078-f0de1f27adca.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "580310",
+                    "current_url": "https://images.tgtg.ninja/store/13570610-211a-4db3-9e9a-f4a3201207ce.png",
+                    "is_automatically_created": false
+                },
+                "name": "Sauces italiennes & surprise ultra gourmande",
+                "description": "🍅 Ce panier sera composé de sauces italiennes au poisson, pour des recettes de pasta 100% estate ! et on vous rajoute UNE SURPRISE ULTRA GOURMANDE dans le panier 🎁🔥",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "Attention, sonnez à la porte blindée grise à l'adresse indiquée ! ",
+                "diet_categories": [
+                    "VEGETARIAN"
+                ],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "589411",
+                "store_name": "Al Dente La Salsa ",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR08797643350",
+                "website": "https://www.aldentelasalsa.com/",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "3 Rue Houdon, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3379106,
+                        "latitude": 48.8827666
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "580310",
+                    "current_url": "https://images.tgtg.ninja/store/13570610-211a-4db3-9e9a-f4a3201207ce.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.2949598955336378,
+                "cover_picture": {
+                    "picture_id": "580342",
+                    "current_url": "https://images.tgtg.ninja/item/cover/474f9161-6971-48cb-b078-f0de1f27adca.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Al Dente La Salsa  (Sauces italiennes & surprise ultra gourmande)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "3 Rue Houdon, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3379106,
+                    "latitude": 48.8827666
+                }
+            },
+            "items_available": 0,
+            "distance": 0.2949598955336378,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "12082860656721920",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 18,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 349,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 349,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1000,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1000,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 349,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1000,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "12113547512053760",
+                    "current_url": "https://images.tgtg.ninja/item/cover/91ec0645-d20c-411a-9e77-abc7cdfd4ac8.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "12082723250667520",
+                    "current_url": "https://images.tgtg.ninja/store/971fe206-2385-424e-adfa-8348635c1bf7_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier surprise ",
+                "description": "Sauvez un Panier Surprise et savourez un délicieux repas.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "MEAL",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 90,
+                        "user_count": 10,
+                        "month_count": 3
+                    },
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 100,
+                        "user_count": 10,
+                        "month_count": 3
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.1,
+                    "rating_count": 10,
+                    "month_count": 4
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "12081837462716416",
+                "store_name": "Subway - Pigalle ",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR84535270565",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "2 Rue Houdon, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3381243,
+                        "latitude": 48.8825724
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "12082723250667520",
+                    "current_url": "https://images.tgtg.ninja/store/971fe206-2385-424e-adfa-8348635c1bf7_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.29550724883170076,
+                "cover_picture": {
+                    "picture_id": "12113547512053760",
+                    "current_url": "https://images.tgtg.ninja/item/cover/91ec0645-d20c-411a-9e77-abc7cdfd4ac8.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Subway - Pigalle  (Panier surprise )",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "2 Rue Houdon, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3381243,
+                    "latitude": 48.8825724
+                }
+            },
+            "items_available": 0,
+            "distance": 0.29550724883170076,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "883966",
+                "sales_taxes": [
+                    {
+                        "tax_description": "TVA",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 36,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 700,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 700,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 2100,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 2100,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 700,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 2100,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "858516",
+                    "current_url": "https://images.tgtg.ninja/item/cover/8fe5da5a-9532-4059-b4f3-eeb4865f3fbd.png",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "814946",
+                    "current_url": "https://images.tgtg.ninja/store/bfced9ce-7c99-4de4-9915-b4118535f046.png",
+                    "is_automatically_created": false
+                },
+                "name": "4 produits Il Biologico Italiano",
+                "description": "Ce panier est composé de deux antipastis tomates séchées et origan et de deux pesto rosso de la marque Il Biologico Italiano.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "804151",
+                "store_name": "Il Biologico Italiano",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR08797643350",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "3 Rue Houdon, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3378494,
+                        "latitude": 48.8827857
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "814946",
+                    "current_url": "https://images.tgtg.ninja/store/bfced9ce-7c99-4de4-9915-b4118535f046.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.29747735008646875,
+                "cover_picture": {
+                    "picture_id": "858516",
+                    "current_url": "https://images.tgtg.ninja/item/cover/8fe5da5a-9532-4059-b4f3-eeb4865f3fbd.png",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Il Biologico Italiano (4 produits Il Biologico Italiano)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "3 Rue Houdon, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3378494,
+                    "latitude": 48.8827857
+                }
+            },
+            "items_available": 0,
+            "distance": 0.29747735008646875,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "834267",
+                "sales_taxes": [
+                    {
+                        "tax_description": "TVA",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 34,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 650,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 650,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1950,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1950,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 650,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1950,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "814974",
+                    "current_url": "https://images.tgtg.ninja/item/cover/d9cd99ab-98f5-4a09-bba6-5ccdf83628d2.png",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "814946",
+                    "current_url": "https://images.tgtg.ninja/store/bfced9ce-7c99-4de4-9915-b4118535f046.png",
+                    "is_automatically_created": false
+                },
+                "name": "4 antipasti Il Biologico Italiano",
+                "description": "Ce panier est composé de 4 antipastis Il Biologico Italiano pour préparer votre meilleur aperitivo italiano.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "Il s'agit des bureaux Italians Do It Better. Veuillez sonner à la porte blindée grise une fois devant.",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "804151",
+                "store_name": "Il Biologico Italiano",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR08797643350",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "3 Rue Houdon, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3378494,
+                        "latitude": 48.8827857
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "814946",
+                    "current_url": "https://images.tgtg.ninja/store/bfced9ce-7c99-4de4-9915-b4118535f046.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.29747735008646875,
+                "cover_picture": {
+                    "picture_id": "814974",
+                    "current_url": "https://images.tgtg.ninja/item/cover/d9cd99ab-98f5-4a09-bba6-5ccdf83628d2.png",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Il Biologico Italiano (4 antipasti Il Biologico Italiano)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "3 Rue Houdon, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3378494,
+                    "latitude": 48.8827857
+                }
+            },
+            "items_available": 0,
+            "distance": 0.29747735008646875,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "642682",
+                "sales_taxes": [
+                    {
+                        "tax_description": "TVA",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 13,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 249,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 249,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 249,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 0,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "668658",
+                    "current_url": "https://images.tgtg.ninja/item/cover/6d4d2722-c5e9-4a4f-97f7-2d600bc9b2d3.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "642214",
+                    "current_url": "https://images.tgtg.ninja/item/logo/5e01e7f0-3346-4f85-bca4-21fac3d90439_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier Hôtellerie ",
+                "description": "Timhotel vous propose de profiter de ses délicieuses viennoiseries du jour ! Croissants et pains au chocolat cuits sur place chaque jour se glisseront dans votre panier :)",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "BAKED_GOODS",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 86,
+                        "user_count": 36,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 89,
+                        "user_count": 36,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.323529411764706,
+                    "rating_count": 34,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "643539",
+                "store_name": "Timhotel - Montmartre",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR13482878287",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "11 Pl. Emile Goudeau, 75018 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3375335,
+                        "latitude": 48.8859089
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "640268",
+                    "current_url": "https://images.tgtg.ninja/store/d5ac0a34-f6d1-46c4-9a03-2e845e545372.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.32644664024965314,
+                "cover_picture": {
+                    "picture_id": "668658",
+                    "current_url": "https://images.tgtg.ninja/item/cover/6d4d2722-c5e9-4a4f-97f7-2d600bc9b2d3.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Timhotel - Montmartre (Panier Hôtellerie )",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "11 Pl. Emile Goudeau, 75018 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3375335,
+                    "latitude": 48.8859089
+                }
+            },
+            "items_available": 0,
+            "distance": 0.32644664024965314,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "960113",
+                "sales_taxes": [
+                    {
+                        "tax_description": "TVA",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 52,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 999,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 999,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 999,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 3000,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "264334",
+                    "current_url": "https://images.tgtg.ninja/standard_images/FRUIT_AND_VEGETABLES/vyHo3nnk8G8.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "464197",
+                    "current_url": "https://apptoogoodtogo.com/public-cache/logo/v1/1/pa-0",
+                    "is_automatically_created": false
+                },
+                "name": "Panier Surprise",
+                "description": "Sauvez une sélection de fruits et légumes.",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "BAG_ALLOWED",
+                "collection_info": "Marché d'Anvers sur la place en face du café \"Grand café d'Anvers\"",
+                "diet_categories": [],
+                "item_category": "OTHER",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 100,
+                        "user_count": 23,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 91,
+                        "user_count": 23,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.434782608695652,
+                    "rating_count": 23,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "902232",
+                "store_name": "Primeur Bio Salhi - Anvers",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR23838310217",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "Pl. d'Anvers, Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3442842,
+                        "latitude": 48.8819162
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "464197",
+                    "current_url": "https://apptoogoodtogo.com/public-cache/logo/v1/1/pa-0",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.3436340664473403,
+                "cover_picture": {
+                    "picture_id": "264334",
+                    "current_url": "https://images.tgtg.ninja/standard_images/FRUIT_AND_VEGETABLES/vyHo3nnk8G8.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Primeur Bio Salhi - Anvers (Panier Surprise)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "Pl. d'Anvers, Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3442842,
+                    "latitude": 48.8819162
+                }
+            },
+            "items_available": 0,
+            "distance": 0.3436340664473403,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "257431",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 21,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "705826",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/61000/e03c0f0d-5d37-4efa-85a8-b12f2a37157f.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "705825",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/logo/61000/9a667d67-16ed-4379-bfb6-4877c76867eb_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier Fruits & Légumes",
+                "description": "Dans votre panier surprise, vous pourrez trouver des produits du rayon fruits et légumes en fonction des invendus du jour. \nASTUCE : Les fruits et légumes peuvent être abimés ou ramollis, mais vous pouvez leur donner une seconde vie en les transformant en smoothie, soupe, gaspacho, ou purée… !",
+                "food_handling_instructions": "",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "",
+                "diet_categories": [
+                    "VEGAN"
+                ],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 90,
+                        "user_count": 94,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 85,
+                        "user_count": 94,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 3.865168539325843,
+                    "rating_count": 89,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "32317",
+                "store_name": "Monop' - Paris, Pigalle",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR56444656680",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "1-3 Place Pigalle, 75009 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3378399,
+                        "latitude": 48.8819927
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "6280",
+                    "current_url": "https://images.tgtg.ninja/store/1531233658_KDpxKsgi6jnM9DAc1pQVmJbTeJhMS1Bw_scale_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.35452214060527576,
+                "cover_picture": {
+                    "picture_id": "705826",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/61000/e03c0f0d-5d37-4efa-85a8-b12f2a37157f.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Monop' - Paris, Pigalle (Panier Fruits & Légumes)",
+            "pickup_interval": {
+                "start": "2024-08-17T08:00:00Z",
+                "end": "2024-08-17T18:00:00Z"
+            },
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "1-3 Place Pigalle, 75009 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3378399,
+                    "latitude": 48.8819927
+                }
+            },
+            "purchase_end": "2024-08-17T18:00:00Z",
+            "items_available": 0,
+            "sold_out_at": "2024-08-16T20:59:24Z",
+            "distance": 0.35452214060527576,
+            "favorite": false,
+            "in_sales_window": true,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "SOLD_OUT",
+                    "short_text": "Épuisé"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "32480",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 26,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 499,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 499,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1500,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1500,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 499,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1500,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "57896",
+                    "current_url": "https://images.tgtg.ninja/store/1531233661_gcUvVt5mL4S1cRdO55JJ3LBYMaMFyS93_scale.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "6280",
+                    "current_url": "https://images.tgtg.ninja/store/1531233658_KDpxKsgi6jnM9DAc1pQVmJbTeJhMS1Bw_scale_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier mixte",
+                "description": "Nous vous demandons d'apporter votre sac afin de limiter l'utilisation d'emballages.\n\n🍲 Dans votre panier surprise, vous pourrez trouver des produits frais (snacking, viande…), des fruits et légumes, des produits à la coupe et parfois des produits d’épicerie.\n\n👉 Psst, RDV à l’accueil pour récupérer votre panier. Le prix d’origine du panier est le prix avant réduction en magasin.\n\n🌍 Pensez à prendre votre sac de courses afin de limiter l’utilisation d’emballages. Quelque chose que vous ne mangez pas ? Partagez-le !\n\n💡 La mention « à consommer de préférence avant » indique que le produit peut avoir perdu de sa saveur mais reste sain et consommable longtemps après la date.",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "collection_info": "",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [
+                    {
+                        "badge_type": "SERVICE_RATING_SCORE",
+                        "rating_group": "LOVED",
+                        "percentage": 87,
+                        "user_count": 149,
+                        "month_count": 6
+                    },
+                    {
+                        "badge_type": "OVERALL_RATING_TRUST_SCORE",
+                        "rating_group": "LIKED",
+                        "percentage": 89,
+                        "user_count": 149,
+                        "month_count": 6
+                    }
+                ],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION",
+                    "POSITIVE_FEEDBACK_GREAT_VARIETY"
+                ],
+                "average_overall_rating": {
+                    "average_overall_rating": 4.091549295774648,
+                    "rating_count": 142,
+                    "month_count": 6
+                },
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "32317",
+                "store_name": "Monop' - Paris, Pigalle",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR56444656680",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "1-3 Place Pigalle, 75009 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3378399,
+                        "latitude": 48.8819927
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "6280",
+                    "current_url": "https://images.tgtg.ninja/store/1531233658_KDpxKsgi6jnM9DAc1pQVmJbTeJhMS1Bw_scale_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.35452214060527576,
+                "cover_picture": {
+                    "picture_id": "57896",
+                    "current_url": "https://images.tgtg.ninja/store/1531233661_gcUvVt5mL4S1cRdO55JJ3LBYMaMFyS93_scale.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Monop' - Paris, Pigalle (Panier mixte)",
+            "pickup_interval": {
+                "start": "2024-08-17T14:00:00Z",
+                "end": "2024-08-17T20:00:00Z"
+            },
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "1-3 Place Pigalle, 75009 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3378399,
+                    "latitude": 48.8819927
+                }
+            },
+            "purchase_end": "2024-08-17T20:00:00Z",
+            "items_available": 9,
+            "distance": 0.35452214060527576,
+            "favorite": false,
+            "in_sales_window": true,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "X_ITEMS_LEFT",
+                    "short_text": "5+ à sauver",
+                    "long_text": "5+ à sauver"
+                }
+            ]
+        },
+        {
+            "item": {
+                "item_id": "414156",
+                "sales_taxes": [
+                    {
+                        "tax_description": "VAT",
+                        "tax_percentage": 5.5000
+                    }
+                ],
+                "tax_amount": {
+                    "code": "EUR",
+                    "minor_units": 21,
+                    "decimals": 2
+                },
+                "price_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "price_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "value_excluding_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "value_including_taxes": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "taxation_policy": "PRICE_INCLUDES_TAXES",
+                "show_sales_taxes": false,
+                "item_price": {
+                    "code": "EUR",
+                    "minor_units": 399,
+                    "decimals": 2
+                },
+                "item_value": {
+                    "code": "EUR",
+                    "minor_units": 1200,
+                    "decimals": 2
+                },
+                "cover_picture": {
+                    "picture_id": "600183",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/40074/b8ef4b19-f927-4e3e-a795-edd0203c65f2.jpg",
+                    "is_automatically_created": false
+                },
+                "logo_picture": {
+                    "picture_id": "600182",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/logo/40074/51d4e288-530a-4589-95b7-f6b6f7d943da_thumb.png",
+                    "is_automatically_created": false
+                },
+                "name": "Panier Boulangerie",
+                "description": "N’oubliez pas d’apporter votre sac. Le magasin n'en fournit pas !\nVenez sauver un assortiment surprise de viennoiseries, pain, brioches de la veille.\nQuelque chose que vous ne mangez pas ? Partagez-le !",
+                "can_user_supply_packaging": false,
+                "packaging_option": "MUST_BRING_BAG",
+                "diet_categories": [],
+                "item_category": "GROCERIES",
+                "buffet": false,
+                "badges": [],
+                "positive_rating_reasons": [
+                    "POSITIVE_FEEDBACK_GREAT_VALUE",
+                    "POSITIVE_FEEDBACK_GREAT_QUANTITY",
+                    "POSITIVE_FEEDBACK_DELICIOUS_FOOD",
+                    "POSITIVE_FEEDBACK_FRIENDLY_STAFF",
+                    "POSITIVE_FEEDBACK_QUICK_COLLECTION"
+                ],
+                "favorite_count": 0
+            },
+            "store": {
+                "store_id": "32317",
+                "store_name": "Monop' - Paris, Pigalle",
+                "branch": "",
+                "description": "",
+                "tax_identifier": "FR56444656680",
+                "website": "",
+                "store_location": {
+                    "address": {
+                        "country": {
+                            "iso_code": "FR",
+                            "name": "France"
+                        },
+                        "address_line": "1-3 Place Pigalle, 75009 Paris, France",
+                        "city": "",
+                        "postal_code": ""
+                    },
+                    "location": {
+                        "longitude": 2.3378399,
+                        "latitude": 48.8819927
+                    }
+                },
+                "logo_picture": {
+                    "picture_id": "6280",
+                    "current_url": "https://images.tgtg.ninja/store/1531233658_KDpxKsgi6jnM9DAc1pQVmJbTeJhMS1Bw_scale_thumb.png",
+                    "is_automatically_created": false
+                },
+                "store_time_zone": "Europe/Paris",
+                "hidden": false,
+                "favorite_count": 0,
+                "we_care": false,
+                "distance": 0.35452214060527576,
+                "cover_picture": {
+                    "picture_id": "600183",
+                    "current_url": "https://images.tgtg.ninja/itembulkimport/cover/40074/b8ef4b19-f927-4e3e-a795-edd0203c65f2.jpg",
+                    "is_automatically_created": false
+                },
+                "is_manufacturer": false
+            },
+            "display_name": "Monop' - Paris, Pigalle (Panier Boulangerie)",
+            "pickup_location": {
+                "address": {
+                    "country": {
+                        "iso_code": "FR",
+                        "name": "France"
+                    },
+                    "address_line": "1-3 Place Pigalle, 75009 Paris, France",
+                    "city": "",
+                    "postal_code": ""
+                },
+                "location": {
+                    "longitude": 2.3378399,
+                    "latitude": 48.8819927
+                }
+            },
+            "items_available": 0,
+            "distance": 0.35452214060527576,
+            "favorite": false,
+            "in_sales_window": false,
+            "new_item": false,
+            "item_type": "MAGIC_BAG",
+            "matches_filters": true,
+            "item_tags": [
+                {
+                    "id": "NOTHING_TO_SAVE_TODAY",
+                    "short_text": "Pas de paniers",
+                    "long_text": "Pas de paniers"
+                }
+            ]
+        }
+    ],
+    "items_expanded_radius": []
+}
