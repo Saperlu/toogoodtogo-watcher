@@ -1,3 +1,5 @@
+import { Meteor } from "meteor/meteor";
+
 export interface Item {
   pickup_interval?: {
     start: string;

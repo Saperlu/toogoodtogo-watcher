@@ -1,5 +1,8 @@
-import React, { createContext, PropsWithChildren, useState } from "react";
+import { Meteor } from "meteor/meteor";
+import { useTracker } from "meteor/react-meteor-data";
+import React, { createContext, PropsWithChildren, useEffect, useState } from "react";
 import { Item, ItemsContextType, SelectedItemContextType } from "../types";
+import { Link } from "react-router-dom";
 
 export const ItemsContext = createContext<ItemsContextType>({
   items: [],
@@ -10,15 +13,24 @@ export const SelectedItemContext = createContext<SelectedItemContextType>({
   setSelectedItem: () => {},
 });
 
+export const UserContext = createContext<Meteor.User | null>(null);
+
 const ContextProvider = ({ children }: PropsWithChildren) => {
   const [items, setItems] = useState<Item[]>([]);
   const [selectedItem, setSelectedItem] = useState<Item>();
+  const user = useTracker(() => Meteor.user());
+
+  useEffect(() => {
+    console.log(`user changed : ${Meteor.userId()} - ${user}`);
+  }, [user]);
 
   return (
     <>
       <ItemsContext.Provider value={{ items, setItems }}>
         <SelectedItemContext.Provider value={{ selectedItem, setSelectedItem }}>
-          {children}
+          <UserContext.Provider value={user}>
+            {children}
+          </UserContext.Provider>
         </SelectedItemContext.Provider>
       </ItemsContext.Provider>
     </>
