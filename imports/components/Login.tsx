@@ -71,11 +71,7 @@ const Login = () => {
   }
 
   useEffect(() => {
-    console.log("redirecting ?");
-    if (user) {
-      console.log("redirecting !");
-      navigate("/waiting");
-    }
+    if (user) navigate("/waiting");
   }, [user]);
 
   return (

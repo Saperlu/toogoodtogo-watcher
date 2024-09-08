@@ -159,3 +159,44 @@ export type SelectedItemContextType = {
   selectedItem: Item | undefined;
   setSelectedItem: React.Dispatch<React.SetStateAction<Item | undefined>>;
 };
+
+export interface User extends Meteor.User {
+  profile: {
+    email: string;
+    tgtg: {
+      waitingAuths: Array<string>;
+      accessToken: string | undefined;
+      refreshToken: string | undefined;
+      validUntil: Date | undefined;
+    };
+  };
+}
+export interface LoggedUser extends Meteor.User {
+  profile: {
+    email: string;
+    tgtg: {
+      waitingAuths: Array<string>;
+      accessToken: string;
+      refreshToken: string;
+      validUntil: Date;
+    };
+  };
+}
+
+export type TgtgApiResponseAuthPoll = {
+  access_token: string;
+  access_token_ttl_seconds: number;
+  refresh_token: string;
+  startup_data: {
+    user_settings: {
+      bound_sw: {
+        longitude: number;
+        latitude: number;
+      };
+      bound_ne: {
+        longitude: number;
+        latitude: number;
+      };
+    };
+  };
+};

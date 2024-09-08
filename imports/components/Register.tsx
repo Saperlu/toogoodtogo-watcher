@@ -19,6 +19,7 @@ import { Accounts } from "meteor/accounts-base";
 import { UserContext } from "./ContextProvider";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { useToast } from "./hooks/use-toast";
+import { formatDate } from "date-fns";
 
 const formSchema = z.object({
   email: z.string().min(2).max(50),
@@ -58,7 +59,6 @@ const Register = () => {
       },
       (err) => {
         if (err) {
-          console.error(err);
           toast({
             title: "Erreur",
             description:
@@ -73,11 +73,7 @@ const Register = () => {
   }
 
   useEffect(() => {
-    console.log("redirecting ?");
-    if (user) {
-      console.log("redirecting !");
-      navigate("/waiting");
-    }
+    if (user) navigate("/waiting");
   }, [user]);
 
   return (
@@ -135,6 +131,19 @@ const Register = () => {
                 }}
               >
                 Cute button
+              </Button>
+              <br />
+              <Button
+                className="mt-3"
+                onClick={() => {
+                  form.setValue(
+                    "email",
+                    formatDate(Date.now(), "hh-mm-ss") + "@azer.azer"
+                  );
+                  form.setValue("password", "azer");
+                }}
+              >
+                Fill
               </Button>
             </Form>
             <div className="mt-2 text-center">
