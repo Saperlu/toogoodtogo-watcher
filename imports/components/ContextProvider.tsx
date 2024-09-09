@@ -1,8 +1,17 @@
 import { Meteor } from "meteor/meteor";
 import { useTracker } from "meteor/react-meteor-data";
-import React, { createContext, PropsWithChildren, useEffect, useState } from "react";
-import { Item, ItemsContextType, SelectedItemContextType } from "../types";
-import { Link } from "react-router-dom";
+import React, {
+  createContext,
+  PropsWithChildren,
+  useEffect,
+  useState,
+} from "react";
+import {
+  Item,
+  ItemsContextType,
+  MeteorUser,
+  SelectedItemContextType,
+} from "../types";
 
 export const ItemsContext = createContext<ItemsContextType>({
   items: [],
@@ -13,12 +22,12 @@ export const SelectedItemContext = createContext<SelectedItemContextType>({
   setSelectedItem: () => {},
 });
 
-export const UserContext = createContext<Meteor.User | null>(null);
+export const UserContext = createContext<MeteorUser>(null);
 
 const ContextProvider = ({ children }: PropsWithChildren) => {
   const [items, setItems] = useState<Item[]>([]);
   const [selectedItem, setSelectedItem] = useState<Item>();
-  const user = useTracker(() => Meteor.user());
+  const user = useTracker(() => Meteor.user()) as MeteorUser;
 
   useEffect(() => {
     console.log(`user changed : ${Meteor.userId()} - ${user}`);
@@ -28,9 +37,7 @@ const ContextProvider = ({ children }: PropsWithChildren) => {
     <>
       <ItemsContext.Provider value={{ items, setItems }}>
         <SelectedItemContext.Provider value={{ selectedItem, setSelectedItem }}>
-          <UserContext.Provider value={user}>
-            {children}
-          </UserContext.Provider>
+          <UserContext.Provider value={user}>{children}</UserContext.Provider>
         </SelectedItemContext.Provider>
       </ItemsContext.Provider>
     </>

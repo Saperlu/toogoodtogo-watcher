@@ -160,28 +160,26 @@ export type SelectedItemContextType = {
   setSelectedItem: React.Dispatch<React.SetStateAction<Item | undefined>>;
 };
 
-export interface User extends Meteor.User {
+export interface UnsyncedUser extends Meteor.User {
   profile: {
     email: string;
     tgtg: {
       waitingAuths: Array<string>;
-      accessToken: string | undefined;
-      refreshToken: string | undefined;
-      validUntil: Date | undefined;
     };
   };
 }
-export interface LoggedUser extends Meteor.User {
+export interface SyncedUser extends Meteor.User {
   profile: {
     email: string;
     tgtg: {
-      waitingAuths: Array<string>;
       accessToken: string;
       refreshToken: string;
       validUntil: Date;
     };
   };
 }
+
+export type MeteorUser = UnsyncedUser | SyncedUser | null;
 
 export type TgtgApiResponseAuthPoll = {
   access_token: string;

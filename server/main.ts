@@ -5,7 +5,11 @@ import { z, ZodError } from "zod";
 import { Mongo } from "meteor/mongo";
 import * as tgtg from "/imports/tgtg/api";
 import { AxiosError, AxiosResponse } from "axios";
-import { LoggedUser, TgtgApiResponseAuthPoll, User } from "/imports/types";
+import {
+  SyncedUser,
+  TgtgApiResponseAuthPoll,
+  UnsyncedUser,
+} from "/imports/types";
 
 export const WaitingAuthsCollection = new Mongo.Collection("waiting-auths");
 
@@ -76,9 +80,6 @@ Accounts.onCreateUser(async (_options, user) => {
     email: parsedUser.emails[0].address,
     tgtg: {
       waitingAuths: [goodResult.polling_id],
-      accessToken: undefined,
-      refreshToken: undefined,
-      validUntil: undefined,
     },
   };
   return user;
@@ -86,7 +87,7 @@ Accounts.onCreateUser(async (_options, user) => {
 
 Meteor.methods({
   async "auth/sync/check"() {
-    const user = (await Accounts.userAsync()) as LoggedUser;
+    const user = (await Accounts.userAsync()) as UnsyncedUser;
     let res: AxiosResponse;
     let goodResult;
     bigFor: for (const pollingId of user.profile.tgtg.waitingAuths) {
@@ -177,7 +178,7 @@ Meteor.methods({
     );
   },
   async "auth/sync/send"() {
-    const user = (await Meteor.userAsync()) as User;
+    const user = (await Meteor.userAsync()) as UnsyncedUser;
     let res: AxiosResponse;
     try {
       res = await tgtg.authByEmail(user.profile.email);
@@ -219,7 +220,7 @@ Meteor.methods({
     return true;
   },
   async "auth/sync/reset"() {
-    const user = (await Meteor.userAsync()) as LoggedUser;
+    const user = (await Meteor.userAsync()) as SyncedUser;
     await Meteor.users.updateAsync(user._id, {
       $set: {
         "profile.tgtg": {

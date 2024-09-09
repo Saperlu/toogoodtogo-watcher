@@ -5,8 +5,10 @@ import Register from "./Register";
 import Login from "/imports/components/Login";
 import RouteError from "/imports/components/RouteError";
 import WaitingEmailConnection from "/imports/components/WaitingEmailConnection";
-import RequiresUser from "./RequiresUser";
+import RequiresUnsyncedUser from "./RequiresUnsyncedUser";
 import { Toaster } from "./ui/toaster";
+import RequiresNoUser from "./RequiresNoUser";
+import RequiresSyncedUser from "./RequiresSyncedUser";
 
 const Router = () => {
   const router = createBrowserRouter([
@@ -17,25 +19,33 @@ const Router = () => {
         {
           path: "/map",
           element: (
-            <RequiresUser>
+            <RequiresSyncedUser>
               <App />
-            </RequiresUser>
+            </RequiresSyncedUser>
           ),
         },
         {
           path: "/register",
-          element: <Register />,
+          element: (
+            <RequiresNoUser>
+              <Register />
+            </RequiresNoUser>
+          ),
         },
         {
           path: "/login",
-          element: <Login />,
+          element: (
+            <RequiresNoUser>
+              <Login />
+            </RequiresNoUser>
+          ),
         },
         {
           path: "/waiting",
           element: (
-            <RequiresUser>
+            <RequiresUnsyncedUser>
               <WaitingEmailConnection />
-            </RequiresUser>
+            </RequiresUnsyncedUser>
           ),
         },
       ],

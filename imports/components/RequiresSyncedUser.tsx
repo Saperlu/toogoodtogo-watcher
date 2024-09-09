@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { useTracker } from "meteor/react-meteor-data";
 import { Meteor } from "meteor/meteor";
 
-const RequiresUser = ({ children }: PropsWithChildren) => {
+const RequiresSyncedUser = ({ children }: PropsWithChildren) => {
   const user = useContext(UserContext);
   const isLoading = useTracker(() => {
     return Meteor.loggingIn();
@@ -31,7 +31,12 @@ const RequiresUser = ({ children }: PropsWithChildren) => {
   }, [isLoading, user]);
 
   useEffect(() => {
-    if (!isDelayedLogin && !user) navigate("/login");
+    if (!isDelayedLogin) {
+      if (!user) navigate("/login"); // No user
+      else if (user && !("accessToken" in user.profile.tgtg))
+        // Unsynced user
+        navigate("/waiting");
+    }
   }, [isDelayedLogin, user]);
 
   if (isDelayedLogin) {
@@ -41,4 +46,4 @@ const RequiresUser = ({ children }: PropsWithChildren) => {
   return user ? <>{children}</> : null;
 };
 
-export default RequiresUser;
+export default RequiresSyncedUser;
