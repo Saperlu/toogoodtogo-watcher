@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
 import Register from "./Register";
 import Login from "/imports/components/Login";
 import RouteError from "/imports/components/RouteError";
@@ -9,8 +8,23 @@ import RequiresUnsyncedUser from "./RequiresUnsyncedUser";
 import { Toaster } from "./ui/toaster";
 import RequiresNoUser from "./RequiresNoUser";
 import RequiresSyncedUser from "./RequiresSyncedUser";
+import Map from "./Map";
+import Settings from "./Settings";
 
 const Router = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setIsLoading(true);
+    const timeout = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, []);
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -20,7 +34,7 @@ const Router = () => {
           path: "/map",
           element: (
             <RequiresSyncedUser>
-              <App />
+              <Map />
             </RequiresSyncedUser>
           ),
         },
@@ -48,6 +62,14 @@ const Router = () => {
             </RequiresUnsyncedUser>
           ),
         },
+        {
+          path: "/settings",
+          element: (
+            <RequiresSyncedUser>
+              <Settings />
+            </RequiresSyncedUser>
+          ),
+        },
       ],
     },
   ]);
@@ -55,6 +77,9 @@ const Router = () => {
   return (
     <>
       <RouterProvider router={router} />
+      {isLoading && (
+        <div className="z-450 fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-tgtg w-1/2 aspect-square rounded-full animate-pulse"></div>
+      )}
       <Toaster />
     </>
   );

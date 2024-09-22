@@ -4,13 +4,14 @@
 
 import axios from "axios";
 
+const defaultHeaders = {
+  "User-Agent":
+    "TGTG/21.1.12 Dalvik/2.1.0 (Linux; Android 12; SM-G920V Build/MMB29K)",
+  // "Accept-Language": "en-US",
+};
 const tgtgApi = axios.create({
   baseURL: "https://apptoogoodtogo.com/api",
-  headers: {
-    "User-Agent":
-      "TGTG/21.1.12 Dalvik/2.1.0 (Linux; Android 12; SM-G920V Build/MMB29K)",
-    "Accept-Language": "en-US",
-  },
+  headers: defaultHeaders,
   validateStatus: (code) => {
     return code < 500;
   },
@@ -31,6 +32,41 @@ export async function authPoll(email: string, pollingId: string) {
     email,
     request_polling_id: pollingId,
   });
+}
+export async function refreshToken(refreshToken: string) {
+  return await tgtgApi.post("/auth/v3/token/refresh", {
+    refresh_token: refreshToken,
+  });
+}
+
+export async function getItems(
+  tgtgUserId: string,
+  accessToken: string,
+  cookieArray: string[],
+  lat: number,
+  lng: number,
+  radius: number
+) {
+  return await tgtgApi.post(
+    "/item/v8",
+    {
+      favorites_only: false,
+      origin: {
+        latitude: lat,
+        longitude: lng,
+      },
+      radius: radius / 1000,
+      user_id: tgtgUserId,
+      page_size: 100,
+    },
+    {
+      headers: {
+        ...defaultHeaders,
+        Authorization: "Bearer " + accessToken,
+        Cookie: cookieArray[0].split(";")[0],
+      },
+    }
+  );
 }
 
 // export function login() {

@@ -172,9 +172,11 @@ export interface SyncedUser extends Meteor.User {
   profile: {
     email: string;
     tgtg: {
+      userId: string;
       accessToken: string;
       refreshToken: string;
       validUntil: Date;
+      cookie: string[];
     };
   };
 }
@@ -186,6 +188,9 @@ export type TgtgApiResponseAuthPoll = {
   access_token_ttl_seconds: number;
   refresh_token: string;
   startup_data: {
+    user: {
+      user_id: string;
+    };
     user_settings: {
       bound_sw: {
         longitude: number;

@@ -1,17 +1,12 @@
+import "/imports/api/instrument";
 import { Meteor } from "meteor/meteor";
 import "/imports/api/methods";
 import { Accounts } from "meteor/accounts-base";
 import { z, ZodError } from "zod";
-import { Mongo } from "meteor/mongo";
 import * as tgtg from "/imports/tgtg/api";
 import { AxiosError, AxiosResponse } from "axios";
-import {
-  SyncedUser,
-  TgtgApiResponseAuthPoll,
-  UnsyncedUser,
-} from "/imports/types";
-
-export const WaitingAuthsCollection = new Mongo.Collection("waiting-auths");
+import { SyncedUser, UnsyncedUser } from "/imports/types";
+// import { ValidatedMethod } from "meteor/mdg:validated-method";
 
 const userRegisterSchema = z.object({
   _id: z.string(),
@@ -29,9 +24,6 @@ const userRegisterSchema = z.object({
     }),
   }),
 });
-
-// Accounts.validateNewUser((user: Meteor.User) => {
-// });
 
 Accounts.onCreateUser(async (_options, user) => {
   let res;
@@ -85,6 +77,42 @@ Accounts.onCreateUser(async (_options, user) => {
   return user;
 });
 
+const refreshToken = async () => {
+  const user = (await Meteor.userAsync()) as SyncedUser;
+  const res = await tgtg.refreshToken(user.profile.tgtg.refreshToken);
+  let goodResult;
+  if (res.status != 200) {
+    console.error("res not 200 : ", res);
+    throw new Meteor.Error(500, "did not return 200");
+  }
+
+  try {
+    goodResult = z
+      .object({
+        access_token: z.string(),
+        access_token_ttl_seconds: z.number(),
+        refresh_token: z.string(),
+      })
+      .parse(res.data);
+  } catch (error) {
+    if (error instanceof ZodError) {
+      console.error(error);
+      console.debug("goodResult : ", goodResult);
+      console.debug("res.data : ", res.data);
+      throw new Meteor.Error(500, "Unknown error.");
+    } else throw error;
+  }
+
+  await Meteor.users.updateAsync(user._id, {
+    $set: {
+      "profile.tgtg.accessToken": goodResult.access_token,
+      "profile.tgtg.validUntil":
+        Date.now() + goodResult.access_token_ttl_seconds * 1000,
+      "profile.tgtg.refreshToken": goodResult.refresh_token,
+    },
+  });
+};
+
 Meteor.methods({
   async "auth/sync/check"() {
     const user = (await Accounts.userAsync()) as UnsyncedUser;
@@ -122,6 +150,9 @@ Meteor.methods({
             access_token_ttl_seconds: z.number(),
             refresh_token: z.string(),
             startup_data: z.object({
+              user: z.object({
+                user_id: z.string(),
+              }),
               user_settings: z.object({
                 bound_sw: z.object({
                   longitude: z.number(),
@@ -149,9 +180,11 @@ Meteor.methods({
       await Meteor.users.updateAsync(user._id, {
         $set: {
           "profile.tgtg": {
+            userId: goodResult.startup_data.user.user_id,
             accessToken: goodResult.access_token,
-            validUntil: Date.now() + goodResult.access_token_ttl_seconds,
+            validUntil: Date.now() + goodResult.access_token_ttl_seconds * 1000,
             refreshToken: goodResult.refresh_token,
+            cookie: res.headers["set-cookie"],
           },
           "profile.bound": {
             sw: {
@@ -230,6 +263,32 @@ Meteor.methods({
     });
     return true;
   },
+  async items(lat: number, lng: number, radius: number) {
+    const user = (await Meteor.userAsync()) as SyncedUser;
+
+    if (user.profile.tgtg.validUntil > new Date(Date.now() - 60000)) {
+      try {
+        refreshToken();
+      } catch (error) {
+        throw new Meteor.Error(500, "Error refreshing token.");
+      }
+    }
+
+    const res = await tgtg.getItems(
+      user.profile.tgtg.userId,
+      user.profile.tgtg.accessToken,
+      user.profile.tgtg.cookie,
+      lat,
+      lng,
+      radius
+    );
+    if (res.status != 200) {
+      console.error("res not 200 : ", res);
+      throw new Meteor.Error(500, "did not return 200");
+    }
+    return res.data;
+  },
 });
 
+// const method = new ValidatedMethod({});
 Meteor.startup(async () => {});

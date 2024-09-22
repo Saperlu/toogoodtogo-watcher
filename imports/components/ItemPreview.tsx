@@ -54,14 +54,12 @@ const ItemPreview = () => {
     <>
       <div
         id="item-preview"
-        className={`absolute w-10/12 h-20 max-w-xl bg-white left-1/2 -translate-x-1/2 
+        className={`fixed w-10/12 h-20 max-w-xl bg-white left-1/2 -translate-x-1/2 
           rounded-md border-tgtg 
           
           border-2 z-450 flex text-black p-2 
           transition-all duration-300
-          ${
-            selectedItem ? "bottom-4" : "-bottom-20"
-          }`}
+          ${selectedItem ? "bottom-4" : "-bottom-20"}`}
       >
         {selectedItem && (
           <>
