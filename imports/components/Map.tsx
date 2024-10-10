@@ -7,11 +7,13 @@ import ItemPreview from "./ItemPreview";
 import { Meteor } from "meteor/meteor";
 import { Link } from "react-router-dom";
 import {
+  Bell,
   CloudDownload,
-  RefreshCw,
+  Parentheses,
   RouteOff,
   Settings as SettingsIcon,
 } from "lucide-react";
+import { items as itemsMethod } from "../methods/tgtg";
 import { toast } from "./hooks/use-toast";
 
 const Map = () => {
@@ -37,7 +39,6 @@ const Map = () => {
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
         crossOrigin=""
       ></script>
-
       <div
         id="map"
         onClick={() => {
@@ -66,6 +67,9 @@ const Map = () => {
         <Link to={"/settings"}>
           <SettingsIcon className="rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8" />
         </Link>
+        <Link to={"/notifications"}>
+          <Bell className="rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8" />
+        </Link>
         <CloudDownload
           className=" rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8"
           onClick={() => fetchItemsFunctionRef.current()}
@@ -80,12 +84,21 @@ const Map = () => {
             });
           }}
         />
+        <Parentheses
+          className=" rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8"
+          onClick={async () => {
+            itemsMethod()
+              .then(console.log)
+              .catch((error: Meteor.Error) => {
+                console.error(error.message);
+              });
+          }}
+        />
         <div className=" rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8">
           {items.length}
         </div>
       </div>
-      {/* <div className="rounded-full w-4/5 aspect-square fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-red-400 z-450 opacity-40"></div> */}
-      <ItemPreview />
+      <ItemPreview />;
     </>
   );
 };

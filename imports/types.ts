@@ -160,8 +160,23 @@ export type SelectedItemContextType = {
   setSelectedItem: React.Dispatch<React.SetStateAction<Item | undefined>>;
 };
 
+export enum NotificationType {
+  Discord = 0,
+}
+export interface Notification {
+  kind: NotificationType.Discord;
+  webhook: string;
+  pseudo: string;
+}
+
+export enum UserType {
+  Unsynced = 0,
+  Synced = 1,
+}
+
 export interface UnsyncedUser extends Meteor.User {
   profile: {
+    userType: UserType.Unsynced;
     email: string;
     tgtg: {
       waitingAuths: Array<string>;
@@ -170,6 +185,7 @@ export interface UnsyncedUser extends Meteor.User {
 }
 export interface SyncedUser extends Meteor.User {
   profile: {
+    userType: UserType.Synced;
     email: string;
     tgtg: {
       userId: string;
@@ -178,6 +194,7 @@ export interface SyncedUser extends Meteor.User {
       validUntil: Date;
       cookie: string[];
     };
+    notifications: Notification[];
   };
 }
 
@@ -203,3 +220,9 @@ export type TgtgApiResponseAuthPoll = {
     };
   };
 };
+
+export interface MethodRequestWithContext {
+  context: {
+    user?: MeteorUser;
+  };
+}

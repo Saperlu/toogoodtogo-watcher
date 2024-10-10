@@ -1,10 +1,10 @@
 import { CONTEXT_VERSION, useEventHandlers } from "@react-leaflet/core";
-import { Circle } from "react-leaflet";
-import React, { useCallback, useContext, useEffect, useState } from "react";
-import { useMap } from "react-leaflet";
-import { ItemsContext } from "./ContextProvider";
 import { Meteor } from "meteor/meteor";
+import React, { useCallback, useContext, useEffect, useState } from "react";
+import { Circle, useMap } from "react-leaflet";
 import { Item } from "../types";
+import { ItemsContext } from "./ContextProvider";
+import { items as itemsMethod } from "/imports/methods/tgtg";
 
 const TgtgRequester = ({ fetchItemsFunctionRef }: TgtgRequesterProps) => {
   const map = useMap();
@@ -62,9 +62,10 @@ const TgtgRequester = ({ fetchItemsFunctionRef }: TgtgRequesterProps) => {
 
   const fetchItems = async () => {
     console.log("fetching : ", pos, mapRadius, circleRadius);
-    Meteor.callAsync("items", pos.lat, pos.lng, mapRadius).then(
+
+    itemsMethod({ ...pos, radius: mapRadius }).then(
       (value) => {
-        setItems(value.items);
+        setItems((value as unknown as { items: Item[] }).items as Item[]);
       },
       (error) => {
         console.error(error);

@@ -1,0 +1,8 @@
+{
+  "public": {
+    "SENTRY_DSN": ""
+  },
+  "private": {
+    "SENTRY_DSN": ""
+  }
+}

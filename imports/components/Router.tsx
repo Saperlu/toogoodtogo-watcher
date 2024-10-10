@@ -10,6 +10,7 @@ import RequiresNoUser from "./RequiresNoUser";
 import RequiresSyncedUser from "./RequiresSyncedUser";
 import Map from "./Map";
 import Settings from "./Settings";
+import Notifications from "./Notifications";
 
 const Router = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -67,6 +68,14 @@ const Router = () => {
           element: (
             <RequiresSyncedUser>
               <Settings />
+            </RequiresSyncedUser>
+          ),
+        },
+        {
+          path: "/notifications",
+          element: (
+            <RequiresSyncedUser>
+              <Notifications />
             </RequiresSyncedUser>
           ),
         },
