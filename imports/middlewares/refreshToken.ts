@@ -31,8 +31,6 @@ const refreshToken = [
     } catch (error) {
       if (error instanceof ZodError) {
         console.error(error);
-        console.debug("goodResult : ", goodResult);
-        console.debug("res.data : ", res.data);
         throw new Meteor.Error(500, "Unknown error.");
       } else throw error;
     }

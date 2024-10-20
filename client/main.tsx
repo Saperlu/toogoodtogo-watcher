@@ -37,7 +37,6 @@ Meteor.startup(() => {
     <StrictMode>
       <ContextProvider>
         <Router />
-        {/* <App /> */}
       </ContextProvider>
     </StrictMode>
   );

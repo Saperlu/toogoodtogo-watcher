@@ -160,13 +160,13 @@ export type SelectedItemContextType = {
   setSelectedItem: React.Dispatch<React.SetStateAction<Item | undefined>>;
 };
 
-export enum NotificationType {
+export enum IntegrationType {
   Discord = 0,
 }
-export interface Notification {
-  kind: NotificationType.Discord;
+export interface Integrations {
+  kind: IntegrationType.Discord;
+  name: string;
   webhook: string;
-  pseudo: string;
 }
 
 export enum UserType {
@@ -194,7 +194,7 @@ export interface SyncedUser extends Meteor.User {
       validUntil: Date;
       cookie: string[];
     };
-    notifications: Notification[];
+    integrations: Integrations[];
   };
 }
 

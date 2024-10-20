@@ -67,7 +67,7 @@ const Map = () => {
         <Link to={"/settings"}>
           <SettingsIcon className="rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8" />
         </Link>
-        <Link to={"/notifications"}>
+        <Link to={"/integrations"}>
           <Bell className="rounded-full bg-tgtg p-1 m-1 text-white w-8 h-8" />
         </Link>
         <CloudDownload

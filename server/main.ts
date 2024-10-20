@@ -4,6 +4,8 @@ import { Accounts } from "meteor/accounts-base";
 import { Meteor } from "meteor/meteor";
 import { z, ZodError } from "zod";
 import "../imports/methods/tgtg";
+import "../imports/methods/integrations/create";
+import "../imports/methods/integrations/remove";
 import "/imports/api/instrument";
 import { setSentry } from "/imports/methods";
 import * as tgtg from "/imports/tgtg/api";
@@ -154,6 +156,7 @@ Meteor.methods({
             cookie: res.headers["set-cookie"],
           },
           "profile.userType": UserType.Synced,
+          "profile.integrations": [],
           "profile.bound": {
             sw: {
               longitude:

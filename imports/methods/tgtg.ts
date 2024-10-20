@@ -4,7 +4,6 @@ import { getSentry } from ".";
 import * as tgtg from "/imports/tgtg/api";
 import { SyncedUser } from "/imports/types";
 import refreshToken from "../middlewares/refreshToken";
-// import { writeFileSync } from "fs";
 
 export const items = createMethod({
   name: "items",
